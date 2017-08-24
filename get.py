@@ -154,7 +154,7 @@ while True:
 
 
     post_data = urllib.urlencode(final_post)
-    #requrl = "http://192.168.10.168:8080/interface/monitor/info-123456"
+    # post地址
     requrl = "http://xxx.xxx.com/api.php"
     req = urllib2.Request(url = requrl,data = post_data)
     res_data = urllib2.urlopen(req)
