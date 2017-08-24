@@ -1,4 +1,4 @@
-# get_resource_info
+# get.py 描述
 
 python通过shell命令获取cpu 内存 磁盘io 网络使用量 网络连接数，其中io数据通过线程后台持续获取。
 
